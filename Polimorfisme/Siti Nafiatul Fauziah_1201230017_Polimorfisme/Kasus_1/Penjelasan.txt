@@ -1,0 +1,11 @@
+Pada kelas Barang terdapat dua konstruktor yang sama dengan parameter yang berbeda, 
+penggunaan konstruktor merupakan implementasi dari polimorfisme
+Pada kelas DriverSuperStore, objek st dari kelas Superstore digunakan 
+untuk memanggil metode tambahBarang() dengan dua versi yang berbeda.
+Method tambahBarang() dalam kelas Superstore di-overload. 
+Terdapat dua versi dari metode ini: 
+Satu menerima tiga parameter (kodeBarang, namaBarang, harga), 
+Lainnya menerima empat parameter (kodeBarang, namaBarang, harga, jumlah). 
+Kedua method ini memiliki nama yang sama tetapi jumlah / tipe parameternya berbeda.
+Untuk overriding tidak diterapkan didalam program ini.
+
